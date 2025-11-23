@@ -1,0 +1,58 @@
+body {
+    background-color: #FFFFFF;
+    color: #666666;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+header { 
+    background-color: #002171;
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+    background-image: url(sunset.jpg);
+    background-position: right;
+    background-repeat: ;
+}
+
+h1 { line-height: 200%; }
+
+h2 { 
+    color: #1976D2;
+    font-family: Georgia, serif;
+}
+
+nav { 
+    font-weight: bold;
+    background-color: #BBDEFB;
+    padding: .5em;
+}
+nav a {
+    text-decoration: none;
+}
+
+dt { 
+    color: #002171;
+    font-weight: bold; 
+}
+
+.resort { 
+    color: #1976D2;
+    font-size: 1.2em; 
+}
+
+footer { 
+    text-align: center;
+    font-size: .70em;
+    font-style: italic;
+}
+
+#homehero {
+    background: url();
+}
+
+#yurthero {
+
+}
+
+#trailhero {
+
+}
