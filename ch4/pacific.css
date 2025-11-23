@@ -7,7 +7,7 @@ body {
 header { 
     background-color: #002171;
     color: #FFFFFF;
-    font-family: Georgia, sans-serif;
+    font-family: Georgia, serif;
     background-image: url(sunset.jpg);
     background-position: right;
     background-repeat: ;
@@ -17,7 +17,7 @@ h1 { line-height: 200%; }
 
 h2 { 
     color: #1976D2;
-    font-family: Georgiai, serif;
+    font-family: Georgia, serif;
 }
 
 nav { 
