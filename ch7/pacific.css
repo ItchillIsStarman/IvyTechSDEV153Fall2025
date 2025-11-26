@@ -117,3 +117,63 @@ section {
     background-size: 200% 100%;
     height: 300px;
 }
+
+/* Medium Display */
+@media (min-width: 600px) {
+    h1 {
+        font-size: 2em;
+        letter-spacing: .25em;
+    }
+    nav li {
+        width: 12em;
+        border-bottom: none;
+    }
+    nav ul {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        padding-right: 2em;
+    }
+    section {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    #flow {
+        display: flex;
+        flex-direction: row;
+    }
+    #mobile {
+        display: none;
+    }
+    #desktop {
+        display: inline;
+    }
+    #homehero {
+        background-size: 100% 100%;
+    }
+    #yurthero {
+        background-size: 100% 100%;
+    }
+    #trailhero {
+        background-size: 100% 100%;
+    }
+}
+
+/* Large Display */
+@media (min-width: 1024px) {
+    nav {
+        float: left;
+    }
+    nav ul {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    #wrapper {
+        width: 80%;
+        margin: auto;
+        max-width: 1200px;
+    }
+    body {
+        background-image: linear-gradient(to bottom, #FFFFFF 20%, );
+    }
+}
