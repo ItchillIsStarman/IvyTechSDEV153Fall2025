@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Competitive Coding: Registration</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="club.css" rel="stylesheet"> 
+
+<script>
+function validateForm() {
+  const phoneNumber = document.forms[0].myPhone.value;
+    const regex = /^\d{3}-\d{3}-\d{4}$/;
+      if (regex.test(phoneNumber)) {
+        return true;
+      } else {
+        alert("Invalid phone number: include a dash after the area code and a dash after the first 3 digits of the phone number.");
+        return false;
+      }
+}
+</script>
+
+</head>
+<body>
+<header>
+  <h1><a href="index.html"Pacific Trails Resort></a></h1>
+</header>
+<nav>
+   <ul>
+      <li><a href="home.html">Home</a> </li>
+      <li><a href="contacts.html">Contacts</a> </li>
+      <li><a href="projects.html">Projects</a> </li> 
+      <li><a href="competitive.html">Competitive Coding</a> </li>
+   </ul>
+</nav>
+<div id = "wrapper">
+<div id = "reshero"></div>
+<main>
+ <h2>Registration for Competitive Coding</h2>
+ <h3>Enter Your Information</h3>
+ <p>Required fields are marked with an asterisk *</p>
+ <form method="post" action="https://webdevbasics.net/scripts/demo.php" onsubmit="return validateForm();">
+   <label for="myFName">*First Name:</label>
+   <input type="text" name="myFName" id="myFName" required>
+   <label for="myLName">*Last Name:</label>
+   <input type="text" name="myLName" id="myLName" required>
+   <label for="myAddress">*Address:</label>
+   <input type="text" name="myAddress" id="myAddress" required>
+   <label for="myCity">*City:</label>
+   <input type="text" name="myCity" id="myCity" required>
+   <label for="myState">*State:</label>
+   <input type="text" name="myState" id="myState" minlength="2" maxlength="2" required>
+   <label for="myZip">*Zip:</label>
+   <input type="text" name="myZip" id="myZip" minlength="5" maxlength="5" required>
+   <label for="myEmail">*E-mail:</label>
+   <input type="text" name="myEmail" id="myEmail" required>
+   <label for="myPhone">*Phone:</label>
+   <input type="text" name="myPhone" id="myPhone" required>
+   <label for="myComments">Please enter any accommodations you need or any other information that you think we should know:</label>
+   <textarea name="myComments" id="myComments" rows="2" cols="20"></textarea>
+   <input type="submit" value="Submit" id="mySubmit">
+ </form>
+</main>
+<footer>
+  <small><i>Copyright &copy; 2020 PNW CS Club
+  <br />
+  <a href="mailto:kamil@zhu.com">kamil@zhu.com</a></i></small>
+</footer>
+</body>
+</div>
+</html>
+
+
+
+
+
