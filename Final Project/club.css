@@ -222,14 +222,12 @@ video {
         margin: auto;
         max-width: 1200px;
     }
+    #flow {
+        display: flex;
+        flex-direction: row;
+    }
     body {
         background-image: linear-gradient(to bottom, #FFFFFF 20%, );
-    }
-    section {
-        float: left;
-        width: 33%;
-        padding-left: 2em;
-        padding-right: 2em;
     }
     main {
         padding-left: 0em;
