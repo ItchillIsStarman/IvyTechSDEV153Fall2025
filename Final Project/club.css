@@ -29,7 +29,7 @@ header {
 header a { text-decoration: none; }
 header a:link { color: #FFFFFF; }
 header a:visited { color: #FFFFFF; }
-header a:hover { color: #90C7E3; }
+header a:hover { color: #ffd362; }
 
 h1 { 
     text-align: center;
@@ -39,6 +39,10 @@ h1 {
 h2 { 
     color: #d29f1e;
     text-shadow: .5px .5px .5px #533f0b;
+    font-family: Georgia, serif;
+}
+
+h3 {
     font-family: Georgia, serif;
 }
 
@@ -220,5 +224,19 @@ video {
     }
     body {
         background-image: linear-gradient(to bottom, #FFFFFF 20%, );
+    }
+    section {
+        float: left;
+        width: 33%;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    main {
+        padding-left: 0em;
+        padding-right: 10em;
+        display: block;
+        background-color: #FFFFFF;
+        margin-left: 170px;
+        overflow: auto;
     }
 }
