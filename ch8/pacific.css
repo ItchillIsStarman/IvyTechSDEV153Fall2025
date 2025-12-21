@@ -127,13 +127,15 @@ section {
 
 table {
     margin: auto;
-    border: 1px #3399CC;
+    border-width: 1px;
+    border-color: #3399CC;
     width: 90%;
     border-collapse: collapse;
 }
 td, th {
     padding: 5px;
-    border: 1px #3399CC;
+    border-width: 1px;
+    border-color: #3399CC;
 }
 td {
     text-align: center;
