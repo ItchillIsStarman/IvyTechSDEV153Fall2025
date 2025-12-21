@@ -9,10 +9,10 @@ body {
 }
 
 main {
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-left: 5em;
+    padding-right: 10em;
+    padding-top: 2em;
+    padding-bottom: 3em;
     display: block;
 }
 
@@ -21,7 +21,6 @@ header {
     background-image: url(rubberduck.png);
     background-repeat: no-repeat;
     background-size: contain;
-    
     color: #FFFFFF;
     font-family: Georgia, sans-serif;
     padding: 1em;
@@ -208,11 +207,11 @@ video {
 /* Large Display */
 @media (min-width: 1024px) {
     nav {
-        float: left;
+        float: none;
     }
     nav ul {
         padding-right: 10%;
-        padding-left: 10%;
+        padding-left: 7%;
     }
     #wrapper {
         width: 80%;
