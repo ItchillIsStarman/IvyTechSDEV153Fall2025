@@ -138,6 +138,30 @@ section h3 {
     height: 300px;
 }
 
+table {
+    margin: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d29f1e;
+    width: 90%;
+    border-collapse: collapse;
+}
+td, th {
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #533f0b;
+}
+td {
+    text-align: center;
+}
+.text {
+    text-align: left;
+}
+tr:nth-of-type(even) {
+    background-color: #faf6d7;
+}
+
 input, textarea {
     margin-bottom: .5em;
 }
