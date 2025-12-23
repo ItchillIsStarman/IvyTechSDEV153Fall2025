@@ -127,6 +127,7 @@ section {
 
 table {
     margin: auto;
+    border-style: solid;
     border-width: 1px;
     border-color: #3399CC;
     width: 90%;
@@ -134,6 +135,7 @@ table {
 }
 td, th {
     padding: 5px;
+    border-style: solid;
     border-width: 1px;
     border-color: #3399CC;
 }
