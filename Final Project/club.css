@@ -105,11 +105,11 @@ section h3 {
     text-align: center;
 }
 
-#mobile {
+.mobile {
     display: inline;
 }
 
-#desktop{
+.desktop{
     display: none;
 }
 
@@ -178,6 +178,10 @@ form {
     width: 80%;
 }
 
+iframe {
+    width: 80%;
+}
+
 /* Medium Display */
 @media (min-width: 600px) {
     h1 {
@@ -205,10 +209,10 @@ form {
         text-align: left;
     }
     
-    #mobile {
+    .mobile {
         display: none;
     }
-    #desktop {
+    .desktop {
         display: inline;
     }
     #homehero {
