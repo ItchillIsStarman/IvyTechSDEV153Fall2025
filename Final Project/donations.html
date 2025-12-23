@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Competitive Coding: Registration</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="club.css" rel="stylesheet">
+  <meta name="description" content="An unofficial website for the Purdue University Northwest Computer Science Club.
+   Meet and communicate with other fans of computer science, participate in club projects and/or donate to us to fund our projects, 
+   and join the competitive programming/programming competition division." />
+</head>
+
+<body>
+  <header>
+    <h1><a href="home.html">PNW Computer Science Club</a></h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a> </li>
+      <li><a href="contacts.html">Contacts</a> </li>
+      <li><a href="projects.html">Projects</a> </li>
+      <li><a href="competitive.html">Competitive Coding</a> </li>
+      <li><a href="donations.html">Donations</a> </li>
+    </ul>
+  </nav>
+  <div id="wrapper">
+    <div id="donationhero"></div>
+    <main>
+      <h2>Donate to us!</h2>
+      <dt>
+        We accept donations to help fund our projects; the more funding we get, the more ambitious projects we can do!
+      </dt>
+      <br>
+      <p>
+        In this page, you can submit a donation, whether anonymously or with your information attached. We happily
+        accept donations of any amount. However, we also offer rewards based on the amount donated:
+      </p>
+      <table>
+        <tr>
+          <th>Tier</th>
+          <th>Amount</th>
+          <th>Rewards (Higher tiers also get to claim rewards from the lower tiers)</th>
+        </tr>
+        <tr>
+          <td>Byte</td>
+          <td>$5+</td>
+          <td class="text">Get included in the list of donators (if you include your name)!</td>
+        </tr>
+        <tr>
+          <td>Duckie</td>
+          <td>$15+</td>
+          <td class="text">Get the chance to claim a free CS-themed t-shirt from the campus store!</td>
+        </tr>
+        <tr>
+          <td>Lion</td>
+          <td>$50+</td>
+          <td class="text">Get featured in the credits of all the virtual projects we make (if you include your name), with the option of including a little message! </td>
+        </tr>
+        <tr>
+          <td>Sponsor</td>
+          <td>$100+</td>
+          <td class="text">Get to have a vote in picking our next projects (if you include your email)!</td>
+        </tr>
+      </table>
+      <br>
+      <h3>Submit Your Donation</h3>
+      <form method="post" action="https://webdevbasics.net/scripts/demo.php" onsubmit="return validateForm();">
+        <label for="myFName">First Name:</label>
+        <input type="text" name="myFName" id="myFName">
+        <label for="myLName">Last Name:</label>
+        <input type="text" name="myLName" id="myLName">
+        <label for="myEmail">E-mail:</label>
+        <input type="text" name="myEmail" id="myEmail">
+        <label for="myDonation">Donation Amount ($):</label>
+        <input type="number" name="myDonation" id="myDonation" min="0">
+        <label for="myComments">Comments: <br> [Lion and Sponsor tiers, this is where you can include a message for your feature in our credits]</label>
+        <textarea name="myComments" id="myComments" rows="2" cols="20"></textarea>
+        <input type="submit" value="Submit" id="mySubmit">
+      </form>
+    </main>
+    <footer>
+      Copyright &copy; 2020 PNW CS Club
+      <br>
+      <a href="mailto:kamil@zhu.com">kamil@zhu.com</a>
+    </footer>
+</body>
+</div>
+
+</html>
